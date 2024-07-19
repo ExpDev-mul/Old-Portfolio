@@ -1,0 +1,23 @@
+.container{
+    width: 500px;
+    height: 700px;
+    margin: 0 auto;
+    opacity: 0;
+}
+
+@keyframes appear {
+    0%{
+        opacity: 0;
+        transform: translateY(30px);
+        transform-style: preserve-3d;
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

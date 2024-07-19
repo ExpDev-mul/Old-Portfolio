@@ -1,0 +1,23 @@
+.container{
+    width: calc(100% - 30px);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    height: auto;
+    padding-bottom: 1px;
+    margin-left: 30px;
+}
+
+.title{
+    padding-left: 15px;
+    padding-top: 10px;
+    font-weight: 700;
+    color: rgb(175, 175, 175);
+}
+
+.content{
+    padding-left: 15px;
+    margin-top: -23px;
+    padding-right: 15px;
+    font-weight: 500;
+    color: rgb(155, 155, 155);
+}
