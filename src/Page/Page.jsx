@@ -9,7 +9,7 @@ export default function Page({index, backgroundColor, children}){
 
     useEffect(() => {
         function handleOnScroll(){
-            const currentPage = Math.floor((window.scrollY + window.innerHeight)/(700 + 350))
+            const currentPage = Math.floor((window.scrollY + window.innerHeight)/(700 + 250))
             if (currentPage >= index){
                 if (!appeared){
                     setAppeared(true)
