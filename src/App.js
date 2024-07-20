@@ -71,7 +71,7 @@ function App() {
               zIndex: "2",
               translate: "40px 20px",
             }
-          }>Feedbacks</h1>
+          }>Experience</h1>
           <h3 style={
             {
               color: "rgb(145, 145, 145)",
